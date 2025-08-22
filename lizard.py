@@ -17,7 +17,7 @@ def onKey(event):
         pressed_keys.add(event.name)
     elif event.event_type == 'up' and event.name in pressed_keys:
         pressed_keys.remove(event.name)
-    for i in range(50):
+    for i in range(10):
         kb.send("volume up")
 if running:
     kb.hook(onKey)      
