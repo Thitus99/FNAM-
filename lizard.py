@@ -2,7 +2,7 @@ import pygame as pg
 import time
 import keyboard as kb
 pg.init()
-running = False
+running = True
 lizard = pg.mixer.Sound("lizard-button.mp3")
 pressed_keys = set()
 oldkeys = pg.key.get_pressed()
